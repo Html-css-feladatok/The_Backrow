@@ -22,3 +22,8 @@ span {
   #kep{
     margin-top: 10px;
   }
+  #arak{
+    color: red;
+    font-size: 22px;
+    font-weight: bold;
+  }
