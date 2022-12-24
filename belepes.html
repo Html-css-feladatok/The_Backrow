@@ -7,7 +7,9 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <script src="css/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <title>AsztaliPC</title>
+    <script src="css/javascript.js"></script>
+    
+    <title>Belépés</title>
 </head>
 <body>
   <nav class="navbar navbar-expand-sm navbar-dark belso sticky-top">
@@ -40,12 +42,46 @@
                   <a href="mikrofon.html"><option value="Mikrofon"></a>
                     <a href="egerpad.html"><option value="Egérpad"></a>
           </datalist>    
-          <button class="btn btn-primary" type="button" action="teljeskinalat.html">Keresés</button>
-          
+          <a href="teljeskinalat.html">
+          <button class="btn btn-primary" type="button">Keresés</button>
+        </a>
         </form>
       </div>
     </div>
   </nav>
+
+
+<div class="container-fluid" style="width: 50vw;">
+    <div class="container mt-3">
+        <h3>Belépés</h3>
+        <p>Kérjük írja be a bejelentkezési adatait: </p>
+          
+        <form action="/action_page.php" class="needs-validation">
+          <div class="mb-3 mt-3">
+            <label for="uname" class="form-label">Felhasználónév:</label>
+            <input type="text" class="form-control" id="uname" placeholder="Felhasználónév" name="uname" required>
+            <div class="valid-feedback">Érvényes.</div>
+            <div class="invalid-feedback">Kérjük töltse ki a mezőt.</div>
+          </div>
+          <div class="mb-3">
+            <label for="pwd" class="form-label">Jelszó:</label>
+            <input type="password" class="form-control" id="pwd" placeholder="Jelszó" name="pswd" required>
+            <div class="valid-feedback">Érvényes.</div>
+            <div class="invalid-feedback">Kérjük töltse ki a mezőt.</div>
+          </div>
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" id="myCheck"  name="remember" required>
+            <label  for="myCheck">Maradjak bejelentkezve.</label>
+            
+          </div>
+          <a href="index.html">
+            <button type="button" class="btn btn-primary">Belépés</button>
+        </a>
+        </form>
+
+      </div>
   
+</div>
+
 </body>
 </html>

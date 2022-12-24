@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script src="css/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="css/javascript.js"></script>
+    
+    <title>Regisztráció</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark belso sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="Index.html"><img id="logo" src="kepek/unnamed.png" alt="Logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="szerelo.html">Számítógépszerelő</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="bolt.html">Boltjaink</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ugyfelszolgalat.html">Ügyfélszolgálat</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="felhasznalo.html">Felhasználó</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search" action="teljeskinalat.html">
+          <input class="form-control me-2" list="info" type="text" placeholder="keresés:">
+          <datalist id="info">
+            <a href="AsztaliPC.html"><option value="Asztali PC"></a>
+              <a href="Laptop.html"><option value="Laptop"></a>
+                <a href="eger.html"><option value="Egér"></a>
+                  <a href="mikrofon.html"><option value="Mikrofon"></a>
+                    <a href="egerpad.html"><option value="Egérpad"></a>
+          </datalist>    
+          <a href="teljeskinalat.html">
+          <button class="btn btn-primary" type="button">Keresés</button>
+        </a>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+<div class="container-fluid" style="width: 50vw;">
+  <form action="/action_page.php">
+    <div class="mb-3 mt-3">
+      <label for="email" class="form-label">Felhasználónév</label>
+      <input type="username" class="form-control" id="username" placeholder="Felhasználónév" name="username">
+    </div>
+    <div class="mb-3">
+        <label for="email" class="form-label">Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="Email" name="email">
+      </div>
+    <div class="mb-3">
+      <label for="pwd" class="form-label">Jelszó:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="jelszó" name="pswd">
+    </div>
+    <div class="mb-3">
+        <label for="pwd" class="form-label">Jelszó megerősítése:</label>
+        <input type="password" class="form-control" id="pwd" placeholder="jelszó megerősítése" name="pswd">
+      </div>
+      <form>
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="születési év" name="ev">
+          </div>
+          <div class="col">
+            <select class="form-select">
+                <option>hónap</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+              </select>
+          </div>
+          <div class="col">
+            <select class="form-select">
+                <option>nap</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+                <option>21</option>
+                <option>22</option>
+                <option>23</option>
+                <option>24</option>
+                <option>25</option>
+                <option>26</option>
+                <option>27</option>
+                <option>28</option>
+                <option>29</option>
+                <option>30</option>
+                <option>31</option>
+              </select>
+          </div>
+        </div>
+      </form>
+    <div class="form-check mb-3 mt-3">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="uzenet"> Szeretnék üzeneteket kapni az aktuális akciókról.
+      </label>
+    </div>
+    <div class="container mt-3">
+        <form action="/action_page.php">
+          <div class="form-check">
+            <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>
+            <label class="form-check-label" for="radio1">Nem járulok hozzá az adataim kezeléséhez!</label>
+          </div>
+          <div class="form-check">
+            <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">
+            <label class="form-check-label" for="radio2">Hozzájárulok az adataim kezeléséhez!</label>
+          </div>
+          <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#register">
+    Regisztráció
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="register" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Köszönjük, hogy regisztrált!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Bezárás</button>
+          <a href="index.html"><button type="button" class="btn btn-primary">Vissza a főoldalra</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+        </form>
+      </div>
+  </form>
+  
+</div>
+
+</body>
+</html>
