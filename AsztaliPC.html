@@ -31,8 +31,8 @@
             <a class="nav-link" href="felhasznalo.html">Felhasználó</a>
           </li>
         </ul>
-        <form class="d-flex" role="search" action="teljeskinalat.html">
-          <input class="form-control me-2" list="info" type="text" placeholder="keresés:">
+        <form class="d-flex" role="search">
+          <input name="kereses" class="form-control me-2 searchbar" list="info" type="text" placeholder="keresés:" onkeyup="search_minden()">
           <datalist id="info">
             <a href="AsztaliPC.html"><option value="Asztali PC"></a>
               <a href="Laptop.html"><option value="Laptop"></a>
