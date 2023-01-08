@@ -46,21 +46,26 @@ span {
     display: block;
     margin: 0 auto;
     width: 450px;
-   
-
-
   }
   #tabla{
     padding-left: 60px;
     float: left;
-
-
-
-
-
-
   }
   #gomb{
     margin-left: 80%;
-    
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
   }
