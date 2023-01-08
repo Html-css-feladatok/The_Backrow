@@ -42,3 +42,25 @@ span {
   .bejel{
     float: left;
   }
+  #gep{
+    display: block;
+    margin: 0 auto;
+    width: 450px;
+   
+
+
+  }
+  #tabla{
+    padding-left: 60px;
+    float: left;
+
+
+
+
+
+
+  }
+  #gomb{
+    margin-left: 80%;
+    
+  }
