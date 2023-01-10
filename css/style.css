@@ -12,13 +12,7 @@ a{
     text-decoration: none;
     color: #000;
 }
-span {
-    display: inline-block;
-    width: 70px;
-    height: 70px;
-    margin: 6px;
-    background-color: #f9f9f9;
-  }
+
   #kep{
     margin-top: 10px;
   }
@@ -81,4 +75,19 @@ span {
   }
   #nem{
     display: none;
+  }
+  .szo{
+    width: 50vw;
+    display: block;
+  }
+  .elso{
+    color: blue;
+  }
+  .masodik{
+    color: red;
+  }
+  .harmadik{
+    color: chocolate;
+    font-variant: small-caps;
+    font-weight: bold;
   }
