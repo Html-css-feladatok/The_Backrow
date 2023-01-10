@@ -9,111 +9,111 @@ let galleryarray = [
 },
 {
     id:2,
-    name: "X-X Gamer A3255 Gamer PC",
-    src: "./asztal/asztali1.0.webp",
+    name: "ASUS ROG Strix G15DK-R5600X1470 Gamer PC",
+    src: "./Asztal/sztali2.1.webp",
     desc: "( /Ryzen7/16GB/960 GB SSD + 3 TB HDD/RTX3060 12GB/NoOS)"
 },
 {
     id:3,
-    name: "X-X Gamer A3255 Gamer PC",
-    src: "./asztal/asztali1.0.webp",
-    desc: "( /Ryzen7/16GB/960 GB SSD + 3 TB HDD/RTX3060 12GB/NoOS)"
+    name: "ASUS ROG Strix G15DK-R5600X1470 Gamer PC",
+    src: "./Asztal/sztali2.1.webp",
+    desc: "(Ryzen5/8GB/512 GB SSD/RTX3060 12GB/NoOS)"
 },
 {
     id:4,
-    name: "X-X Gamer A3255 Gamer PC",
-    src: "./asztal/asztali1.0.webp",
-    desc: "( /Ryzen7/16GB/960 GB SSD + 3 TB HDD/RTX3060 12GB/NoOS)"
+    name: "ASUS ROG Strix G10DK-R5600X109W Gamer PC",
+    src: "./Asztal/asztali3.webp",
+    desc: "(Ryzen5/8GB/512 GB SSD/RTX3060 12GB/Win11H)"
 },
 {
     id:5,
-    name: "X-X Gamer A3255 Gamer PC",
-    src: "./asztal/asztali1.0.webp",
-    desc: "( /Ryzen7/16GB/960 GB SSD + 3 TB HDD/RTX3060 12GB/NoOS)"
+    name: "HUAWEI MateStation S MS 53011VYA Szürke Asztali PC",
+    src: "./Asztal/asztali4.webp",
+    desc: "( /Ryzen5/8GB/256 GB SSD/Win10H)"
 },
 {
     id:6,
-    name: "X-X Gamer A3255 Gamer PC",
-    src: "./asztal/asztali1.0.webp",
-    desc: "( /Ryzen7/16GB/960 GB SSD + 3 TB HDD/RTX3060 12GB/NoOS)"
+    name: "FUJITSU Esprimo P5011 P511EPC51RIN Asztali PC",
+    src: "./Asztal/asztali5.webp",
+    desc: "(Core i5/16GB/512 GB SSD/Win10P)"
 },
 {
     id:7,
-    name: "X-X Gamer A3255 Gamer PC",
-    src: "./asztal/asztali1.0.webp",
-    desc: "( /Ryzen7/16GB/960 GB SSD + 3 TB HDD/RTX3060 12GB/NoOS)"
+    name: "REDRAGON Inquisitor 2 gamer egér, 800 - 7 200 dpi, 6 programozható gomb",
+    src: "./eger/eger2.webp",
+    desc: ""
 },
 {
     id:8,
-    name: "X-X Gamer A3255 Gamer PC",
-    src: "./asztal/asztali1.0.webp",
-    desc: "( /Ryzen7/16GB/960 GB SSD + 3 TB HDD/RTX3060 12GB/NoOS)"
+    name: "REDRAGON Storm RGB gamer egér, 100 - 12 400 dpi, 7 programozható gomb, fehér",
+    src: "./eger/eger1.webp",
+    desc: ""
 },
 {
     id:9,
-    name: "X-X Gamer A3255 Gamer PC",
-    src: "./asztal/asztali1.0.webp",
-    desc: "( /Ryzen7/16GB/960 GB SSD + 3 TB HDD/RTX3060 12GB/NoOS)"
+    name: "TRUST GXT 117 Strike vezeték nélküli gaming egér",
+    src: "./eger/eger3.webp",
+    desc: ""
 },
 {
     id:10,
-    name: "X-X Gamer A3255 Gamer PC",
-    src: "./asztal/asztali1.0.webp",
-    desc: "( /Ryzen7/16GB/960 GB SSD + 3 TB HDD/RTX3060 12GB/NoOS)"
+    name: "TRUST 22417 GXT 115 Macci Wireless Gaming Mouse",
+    src: "./eger/eger4.webp",
+    desc: ""
 },
 {
     id:11,
-    name: "X-X Gamer A3255 Gamer PC",
-    src: "./asztal/asztali1.0.webp",
-    desc: "( /Ryzen7/16GB/960 GB SSD + 3 TB HDD/RTX3060 12GB/NoOS)"
+    name: "GWINGS GW9200M 7200dpi-s gaming egér, 2 görgős",
+    src: "./eger/eger5.webp",
+    desc: ""
 },
 {
     id:12,
-    name: "X-X Gamer A3255 Gamer PC",
-    src: "./asztal/asztali1.0.webp",
-    desc: "( /Ryzen7/16GB/960 GB SSD + 3 TB HDD/RTX3060 12GB/NoOS)"
+    name: "URAGE Reaper 400 gaming egér",
+    src: "./eger/eger6.webp",
+    desc: ""
 },
 {
     id:13,
-    name: "X-X Gamer A3255 Gamer PC",
-    src: "./asztal/asztali1.0.webp",
-    desc: "( /Ryzen7/16GB/960 GB SSD + 3 TB HDD/RTX3060 12GB/NoOS)"
+    name: "URAGE Soundz 900 DAC Gaming fejhallgató mikrofonnal, fekete",
+    src: "./Fejhalgato/fej1.webp",
+    desc: ""
 },
 {
     id:14,
-    name: "X-X Gamer A3255 Gamer PC",
-    src: "./asztal/asztali1.0.webp",
-    desc: "( /Ryzen7/16GB/960 GB SSD + 3 TB HDD/RTX3060 12GB/NoOS)"
+    name: "MAXELL HyperShock gaming vezeték nélküli fejhallgató mikrofonnal, bluetooth, RGB",
+    src: "./Fejhalgato/fej2.webp",
+    desc: ""
 },
 {
     id:15,
-    name: "X-X Gamer A3255 Gamer PC",
-    src: "./asztal/asztali1.0.webp",
-    desc: "( /Ryzen7/16GB/960 GB SSD + 3 TB HDD/RTX3060 12GB/NoOS)"
+    name: "REDRAGON Pandora 2 gaming fejhallgató mikrofonnal, 3,5mm Jack +USB tápellátás, RGB, fehér",
+    src: "./Fejhalgato/fej3.webp",
+    desc: ""
 },
 {
     id:16,
-    name: "X-X Gamer A3255 Gamer PC",
-    src: "./asztal/asztali1.0.webp",
-    desc: "( /Ryzen7/16GB/960 GB SSD + 3 TB HDD/RTX3060 12GB/NoOS)"
+    name: "SAMSUNG F22T370FWR 22",
+    src: "./Monitor/Monitor1.webp",
+    desc: ""
 },
 {
     id:17,
-    name: "X-X Gamer A3255 Gamer PC",
-    src: "./asztal/asztali1.0.webp",
-    desc: "( /Ryzen7/16GB/960 GB SSD + 3 TB HDD/RTX3060 12GB/NoOS)"
+    name: "MSI OPTIX MAG273",
+    src: "./Monitor/monitor5.webp",
+    desc: ""
 },
 {
     id:18,
-    name: "X-X Gamer A3255 Gamer PC",
-    src: "./asztal/asztali1.0.webp",
-    desc: "( /Ryzen7/16GB/960 GB SSD + 3 TB HDD/RTX3060 12GB/NoOS)"
+    name: "ACER V226HQLBBI",
+    src: "./Monitor/monitor2.webp",
+    desc: ""
 },
 {
     id:19,
-    name: "X-X Gamer A3255 Gamer PC",
-    src: "./asztal/asztali1.0.webp",
-    desc: "( /Ryzen7/16GB/960 GB SSD + 3 TB HDD/RTX3060 12GB/NoOS)"
+    name: "LG 29WP500-B",
+    src: "./Monitor/monitor4.webp",
+    desc: ""
 },
 ]
 
